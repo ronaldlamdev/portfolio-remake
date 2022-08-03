@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: 'Nunito', sans-serif;
+
+@layer base {
+  * {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  li {
+    @apply px-4 cursor-pointer;
+  }
 }
