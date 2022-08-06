@@ -27,35 +27,35 @@ const Skills = () => {
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={HTML} />
-            <p className='my-4'>HTML</p>
+            <p className='my-2'>HTML</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={CSS} />
-            <p className='my-4'>CSS</p>
+            <p className='my-2'>CSS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={JavaScript} />
-            <p className='my-4'>JavaScript</p>
+            <p className='my-2'>JavaScript</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactJS} />
-            <p className='my-4'>React</p>
+            <p className='my-2'>React</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={TailwindCSS} />
-            <p className='my-4'>Tailwind CSS</p>
+            <p className='my-2'>Tailwind CSS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={SASS} />
-            <p className='my-4'>SASS</p>
+            <p className='my-2'>SASS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Git} />
-            <p className='my-4'>Git</p>
+            <p className='my-2'>Git</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={GitHub} />
-            <p className='my-4'>GitHub</p>
+            <p className='my-2'>GitHub</p>
           </div>
         </div>
       </div>
