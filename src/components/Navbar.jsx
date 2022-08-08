@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Logo */}
       <div>
         <a href='/'>
-          <span className='text-5xl font-semibold text-pink-600 pl-2'>
+          <span className='text-5xl font-semibold text-[#59CE8F] pl-2'>
             RL
           </span>
         </a>
@@ -26,35 +26,35 @@ const Navbar = () => {
 
         {/* Home */}
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300' to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
 
         {/* About */}
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300' to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
 
         {/* Skills */}
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300' to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
 
         {/* Work */}
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300' to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
 
         {/* Contact */}
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300' to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -109,19 +109,19 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0 z-10'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/ronaldmlam/' target="_blank">
               LinkedIn <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/ronaldlamdev' target="_blank">
               GitHub <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6FC2B0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+            <Link to="contact" smooth={true} duration={500} className='flex justify-between items-center w-full text-gray-300' href='/'>
               Email <HiOutlineMail size={30}/>
-            </a>
+            </Link>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300' href='/'>
