@@ -47,8 +47,8 @@ const Navbar = () => {
 
         {/* Work */}
         <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="work" smooth={true} duration={500}>
-            Work
+          <Link className='hover:text-[#59CE8F] duration-300' to="works" smooth={true} duration={500}>
+            Works
           </Link>
         </li>
 
