@@ -4,8 +4,8 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactJS from '../assets/react.png';
 import TailwindCSS from '../assets/tailwind.png';
-import SASS from '../assets/sass.png';
-import Git from '../assets/git.png';
+import SASS from '../assets/sass.svg';
+import Git from '../assets/git.svg'
 import GitHub from '../assets/github.png';
 
 const Skills = () => {
@@ -16,7 +16,7 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
         <div>
-          <p className='text-4xl font-bold underline underline-offset-[6px] decoration-pink-600 decoration-4'>
+          <p className='text-4xl font-bold underline underline-offset-[6px] decoration-[#59CE8F] decoration-4'>
             Skills
           </p>
           <p className='py-4'>
@@ -25,37 +25,37 @@ const Skills = () => {
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-          <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
+          <div className='shadow-md py-5 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={HTML} />
-            <p className='my-2'>HTML</p>
+            <p className='py-2'>HTML</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={CSS} />
-            <p className='my-2'>CSS</p>
+            <p className='py-2'>CSS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={JavaScript} />
-            <p className='my-2'>JavaScript</p>
+            <p className='py-2'>JavaScript</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactJS} />
-            <p className='my-2'>React</p>
+            <p className='py-2'>React</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={TailwindCSS} />
-            <p className='my-2'>Tailwind CSS</p>
+            <p className='py-2'>Tailwind CSS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={SASS} />
-            <p className='my-2'>SASS</p>
+            <p className='py-2'>SASS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={Git} />
-            <p className='my-2'>Git</p>
+            <p className='py-2'>Git</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={GitHub} />
-            <p className='my-2'>GitHub</p>
+            <p className='py-2'>GitHub</p>
           </div>
         </div>
       </div>

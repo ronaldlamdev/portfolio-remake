@@ -8,8 +8,8 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
         <div className='pb-8'>
-          <p className='text-4xl font-bold underline underline-offset-[6px] decoration-pink-600 decoration-4'>Work</p>
-          <p className='py-6'>Check out some of my work</p>
+          <p className='text-4xl font-bold underline underline-offset-[6px] decoration-[#59CE8F] decoration-4'>Work</p>
+          <p className='py-6 text-xl'>Check out some of my work</p>
         </div>
 
         {/* Container */}

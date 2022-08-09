@@ -5,7 +5,7 @@ const Contact = () => {
     <div name="contact" className='w-full h-screen bg-[#0A192F] flex justify-center items-center p-4'>
       <form method='POST' action="https://getform.io/f/5bde4b85-e0e2-4f8f-b532-30a8cf667b7c" className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold underline underline-offset-[6px] pb-4 decoration-pink-600 decoration-4 text-gray-300'>
+          <p className='text-4xl font-bold underline underline-offset-[6px] pb-5 decoration-[#59CE8F] decoration-4 text-gray-300'>
             Contact
           </p>
           <p className='text-gray-300'>
