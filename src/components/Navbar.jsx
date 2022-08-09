@@ -63,46 +63,41 @@ const Navbar = () => {
 
       {/* Hamburger */}
       <div className='md:hidden z-10'>
-        {nav ? <FaBars size={22} className='cursor-pointer' onClick={handleClick} /> : <FaTimes size={22} className='cursor-pointer' onClick={handleClick}/>}
+        {nav ? <FaBars size={22} className='cursor-pointer' onClick={handleClick} /> : <FaTimes size={22} className='cursor-pointer hover:text-[#59CE8F] duration-300' onClick={handleClick}/>}
       </div>
 
       {/* Mobile Menu */}
-      <ul className={nav ? 'hidden' : 'absolute top-0 left-0 h-screen w-full bg-[#0A192F] flex flex-col justify-center items-center md:hidden'}>
-        <li className='py-6 text-4xl'>
+      <ul className={nav ? 'hidden' : 'absolute top-0 right-0 h-screen w-full bg-[#0e1946] flex flex-col justify-center items-center md:hidden'}>
+        
+        {/* Home */}
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="home" smooth={true} duration={500}>
+          Home
+        </Link>
 
-          {/* Home */}
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
 
         {/* About */}
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="about" smooth={true} duration={500}>
+          About
+        </Link>
+
 
         {/* Skills */}
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="skills" smooth={true} duration={500}>
+          Skills
+        </Link>
+
 
         {/* Work */}
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="work" smooth={true} duration={500}>
+          Work
+        </Link>
+
 
         {/* Contact */}
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="contact" smooth={true} duration={500}>
+          Contact
+        </Link>
+
       </ul>
 
       {/* Social Icons */}
