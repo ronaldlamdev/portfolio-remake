@@ -25,39 +25,29 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
 
         {/* Home */}
-        <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="home" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300 px-6 cursor-pointer' to="home" smooth={true} duration={500}>
             Home
           </Link>
-        </li>
 
         {/* About */}
-        <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="about" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300 px-6 cursor-pointer' to="about" smooth={true} duration={500}>
             About
           </Link>
-        </li>
 
         {/* Skills */}
-        <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="skills" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300 px-6 cursor-pointer' to="skills" smooth={true} duration={500}>
             Skills
           </Link>
-        </li>
 
         {/* Work */}
-        <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="works" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300 px-6 cursor-pointer' to="works" smooth={true} duration={500}>
             Works
           </Link>
-        </li>
 
         {/* Contact */}
-        <li>
-          <Link className='hover:text-[#59CE8F] duration-300' to="contact" smooth={true} duration={500}>
+          <Link className='hover:text-[#59CE8F] duration-300 px-6 cursor-pointer' to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
       </ul>
       
 

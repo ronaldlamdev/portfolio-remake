@@ -7,7 +7,7 @@ const About = () => {
 
         <div className='max-w-[800px] w-full grid grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold underline underline-offset-[6px] decoration-pink-600 decoration-4'>
+            <p className='text-4xl font-bold underline underline-offset-[6px] decoration-[#59CE8F] decoration-4'>
               About
             </p>
           </div>
@@ -24,7 +24,7 @@ const About = () => {
               assignment. I was a senior Accounting major at the time and I knew I wanted to make a career change
               in tech. However, I did not want to change majors to Computer Science and repeat 4 years of college 
               when I was about to graduate. 
-              I currently work full time now as an Accounts Payable Clerk, but everyday after work, I dedicate at least 2 hours
+              I currently work full time now in Accounting, but everyday after work, I dedicate at least 2 hours
               into learning and practicing coding. I hope to to make a career change into tech soon and I look forward to  
               working together in the forseeable future. 
             </p>
