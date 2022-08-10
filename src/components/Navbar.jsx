@@ -78,7 +78,7 @@ const Navbar = () => {
 
 
         {/* Work */}
-        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="work" smooth={true} duration={500}>
+        <Link className='hover:text-[#59CE8F] duration-300 py-6 text-4xl cursor-pointer' onClick={handleClick} to="works" smooth={true} duration={500}>
           Work
         </Link>
 
