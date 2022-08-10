@@ -1,6 +1,4 @@
 import React from 'react'
-import RestaurantThumbnail from '../assets/restaurant.jpg';
-import TravelThumbnail from '../assets/travel.jpg';
 
 const Work = () => {
   return (
@@ -17,7 +15,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${RestaurantThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -37,7 +35,7 @@ const Work = () => {
           </div>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${TravelThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -57,7 +55,7 @@ const Work = () => {
           </div>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${RestaurantThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -77,7 +75,7 @@ const Work = () => {
           </div>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${TravelThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -97,7 +95,7 @@ const Work = () => {
           </div>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${RestaurantThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -117,7 +115,7 @@ const Work = () => {
           </div>
 
           {/* Grid item */}
-          <div style={{backgroundImage: `url(${TravelThumbnail})`}} className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
           {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
