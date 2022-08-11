@@ -3,7 +3,7 @@ export const projects = [
     title: 'Quarantine Cup 2020',
     thumbnail:  '../assets/qc2020thumbnail.jpg',
     demo: 'https://github.com/ronaldlamdev/qc2020',
-    live_site: '' 
+    live_site: 'https://ronaldlamdev.github.io/qc2020/' 
   },
   {
     title: 'Restaurant Site',
