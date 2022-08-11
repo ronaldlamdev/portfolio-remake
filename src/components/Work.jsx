@@ -15,8 +15,11 @@ const Work = () => {
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {projects.map((project, index) => (
-            <div>
-              
+            <div className='flex flex-col justify-center items-center' key={index}>
+              <div>
+              <img src={project.thumbnail}/>
+              </div>
+              <h2>{project.title}</h2>
             </div>
           ))}
         </div>
