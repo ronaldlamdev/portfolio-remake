@@ -3,7 +3,7 @@ import { projects } from '../projects/project';
 
 const Work = () => {
   return (
-    <div name="works" className='bg-[#0A192F] w-full md:h-screen text-gray-300'>
+    <div name="works" className='bg-[#0A192F] md:h-screen text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
 
         <div className='pb-8'>
@@ -13,7 +13,7 @@ const Work = () => {
 
         {/* Container */}
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto'>
           {projects.map((project, index) => (
             <div className='flex flex-col justify-center items-center w-full' key={index}>
               <div className='max-w-[400px] w-full relative flex justify-center group'>
@@ -24,7 +24,7 @@ const Work = () => {
               </div>
               <div className='p-6 relative w-full text-center group'>
                 <h2 className='text-2xl group-hover:opacity-0'>{project.title}</h2>
-                <div className='absolute w-full flex justify-center items-center gap-9 left-0 p-6 top-0 p-6 text-2xl opacity-0 group-hover:opacity-100 duration-300'>
+                <div className='absolute w-full flex justify-center items-center gap-9 left-0 top-0 p-6 text-2xl opacity-0 group-hover:opacity-100 duration-300'>
                   <button className='w-[80px] flex justify-center items-center px-3 py-2 rounded-md text-white group border-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
                     <a href={project.repo} target="_blank">Repo</a>
                   </button>
