@@ -18,7 +18,7 @@ const Work = () => {
             <div className='flex flex-col justify-center items-center w-full' key={index}>
               <div className='max-w-[400px] w-full flex justify-center'>
                 <a className='shadow-xl' href={project.live_site} target="_blank">
-                  <img className='w-full hover:opacity-30 duration-300 rounded-md' src={project.thumbnail}/>
+                  <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={project.thumbnail}/>
                 </a>
               </div>
               <div className='p-6 text-center'>
