@@ -1,3 +1,5 @@
+Live site: https://ronaldlamdev.github.io/portfolio-remake/
+
 This is my 2nd and latest portfolio created with React and Tailwind CSS.
 
 In creating this portfolio, I had practice using the JS map function, creating an array of objects, using grid layout, 
