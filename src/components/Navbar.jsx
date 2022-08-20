@@ -15,7 +15,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <div>
-        <a href='/'>
+        <a href='https://ronaldlamdev.github.io/portfolio-remake/'>
           <span className='text-5xl font-semibold text-[#59CE8F] pl-2'>
             RL
           </span>
