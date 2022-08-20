@@ -15,5 +15,8 @@ over the titles of the projects, it reveals 2 buttons, one for the repo of the p
 
 Now, when clicking on the images of the project, it takes the user or client to the live site and when clicking on the title, the repo of the site. 
 
+I also had to delete my JS array of objects, which contained info about my projects, for the sake of rendering my projects because mapping out my images from 
+the data provided in the array causes my images to not render correctly for some reason. I had no other way but to type my project's code manually each. 
+
 It was a not easy, but also not very hard either. I took some inspirations from other portfolio designs and injected some of my own designs and code into this
 portfolio. I struggled, but I also had fun, and looking forward to making more complex and fun projects. 
