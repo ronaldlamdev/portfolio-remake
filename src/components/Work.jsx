@@ -24,90 +24,88 @@ const Work = () => {
           {/* QC2020 */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/qc2020/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={QC2020}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full rounded-sm' src={QC2020}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with React and Tailwind CSS
+              </p>
             </div>
-            <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/qc2020' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Quarantine Cup 2020</h2>
-              </a>
+            <div className='p-6 text-center relative w-full h-full'>
+              <h2 className='text-2xl duration-300'>Quarantine Cup 2020</h2>
+              {/* <div className='w-full h-full absolute top-[50%] left-0 flex justify-evenly items-center'>
+                <button>Repo</button>
+                <button>LIVE</button>
+              </div> */}
             </div>
           </div>
 
           {/* Restaurant */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/restaurant-site/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Restaurant}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Restaurant}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with React and Tailwind CSS
+              </p>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/restaurant-site' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Restaurant Site</h2>
-              </a>
+              <h2 className='text-2xl duration-300 '>Restaurant Site</h2>
             </div>
           </div>
 
           {/* Travel */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/travel-site-react-tailwind/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Travel}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Travel}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with React and Tailwind CSS
+              </p>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/travel-site-react-tailwind' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Travel Site</h2>
-              </a>
+              <h2 className='text-2xl duration-300 '>Travel Site</h2>
             </div>
           </div>
 
           {/* Ecommerce */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/ecommerce-page/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Ecommerce}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Ecommerce}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with React and SASS
+              </p>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/ecommerce-page' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Ecommerce Site</h2>
-              </a>
+              <h2 className='text-2xl duration-300 '>Ecommerce Site</h2>
             </div>
           </div>
 
           {/* Easybank */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/easybank/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Easybank}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm ' src={Easybank}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with React Router DOM V6 and Tailwind CSS
+              </p>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/easybank' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Easybank</h2>
-              </a>
+              <h2 className='text-2xl duration-300 '>Easybank</h2>
             </div>
           </div>
 
           {/* Advice Generator */}
           
           <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/easybank/#/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Advice}/>
-              </a>
+            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Advice}/>
+              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+                Created with Vanilla HTML, CSS, and JS
+              </p>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/advice-generator-app' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Advice Generator</h2>
-              </a>
+              <h2 className='text-2xl duration-300 '>Advice Generator</h2>
             </div>
           </div>
 
