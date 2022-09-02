@@ -3,7 +3,7 @@ import QC2020 from '../assets/project-images/qc2020thumbnail.jpg';
 import Restaurant from '../assets/project-images/restaurantsite.jpg';
 import Travel from '../assets/project-images/travel.jpg';
 import Ecommerce from '../assets/project-images/ecommerce.jpg';
-import OldPortfolio from '../assets/project-images/oldportfolio.jpg';
+import Easybank from '../assets/project-images/easybank-thumbnail.jpg';
 import Advice from '../assets/project-images/advicegenerator.jpg';
 
 
@@ -81,17 +81,17 @@ const Work = () => {
             </div>
           </div>
 
-          {/* First Portfolio*/}
+          {/* Easybank */}
           
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/portfolio/' target="_blank">
-                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={OldPortfolio}/>
+              <a className='shadow-xl' href='https://ronaldlamdev.github.io/easybank/' target="_blank">
+                <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Easybank}/>
               </a>
             </div>
             <div className='p-6 text-center'>
-              <a href='https://github.com/ronaldlamdev/portfolio' target="_blank">
-                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>First Portfolio</h2>
+              <a href='https://github.com/ronaldlamdev/easybank' target="_blank">
+                <h2 className='text-2xl hover:text-[#59CE8F] duration-300 '>Easybank</h2>
               </a>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Work = () => {
           
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center'>
-              <a className='shadow-xl' href='https://ronaldlamdev.github.io/advice-generator-app/' target="_blank">
+              <a className='shadow-xl' href='https://ronaldlamdev.github.io/easybank/#/' target="_blank">
                 <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Advice}/>
               </a>
             </div>
