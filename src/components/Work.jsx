@@ -26,16 +26,20 @@ const Work = () => {
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
               <img className='w-full rounded-sm' src={QC2020}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with React and Tailwind CSS
               </p>
             </div>
-            <div className='p-6 text-center relative w-full h-full'>
-              <h2 className='text-2xl duration-300'>Quarantine Cup 2020</h2>
-              {/* <div className='w-full h-full absolute top-[50%] left-0 flex justify-evenly items-center'>
-                <button>Repo</button>
-                <button>LIVE</button>
-              </div> */}
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Quarantine Cup 2020</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/qc2020' target="_blank">Repo</a>
+                </button >
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/qc2020/' target="_blank">LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -44,12 +48,20 @@ const Work = () => {
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
               <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Restaurant}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with React and Tailwind CSS
               </p>
             </div>
-            <div className='p-6 text-center'>
-              <h2 className='text-2xl duration-300 '>Restaurant Site</h2>
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Restaurant Site</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/restaurant-site' target='_blank'>Repo</a>
+                </button >
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/restaurant-site/' target="_blank">LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -58,12 +70,20 @@ const Work = () => {
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
               <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Travel}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with React and Tailwind CSS
               </p>
             </div>
-            <div className='p-6 text-center'>
-              <h2 className='text-2xl duration-300 '>Travel Site</h2>
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Travel Site</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/travel-site-react-tailwind' target='_blank'>Repo</a>
+                </button>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/travel-site-react-tailwind/' target="_blank">LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -72,12 +92,20 @@ const Work = () => {
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
               <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Ecommerce}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with React and SASS
               </p>
             </div>
-            <div className='p-6 text-center'>
-              <h2 className='text-2xl duration-300 '>Ecommerce Site</h2>
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Ecommerce Site</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/ecommerce-page' target='_blank'>Repo</a>
+                </button>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/ecommerce-page/' target="_blank">LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -85,13 +113,21 @@ const Work = () => {
           
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
-              <img className='w-full hover:opacity-30 duration-300 rounded-sm ' src={Easybank}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <img className='w-full h-full hover:opacity-30 duration-300 rounded-sm' src={Easybank}/>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with React Router DOM V6 and Tailwind CSS
               </p>
             </div>
-            <div className='p-6 text-center'>
-              <h2 className='text-2xl duration-300 '>Easybank</h2>
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Easybank</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/easybank' target="_blank">Repo</a>
+                </button>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/easybank/' target="_blank">LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 
@@ -100,12 +136,20 @@ const Work = () => {
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
               <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Advice}/>
-              <p className='absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center hover:bg-black/80 hover:opacity-100'>
+              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
                 Created with Vanilla HTML, CSS, and JS
               </p>
             </div>
-            <div className='p-6 text-center'>
-              <h2 className='text-2xl duration-300 '>Advice Generator</h2>
+            <div className='p-6 text-center relative group w-full h-full'>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Advice Generator</h2>
+              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://github.com/ronaldlamdev/advice-generator-app' target='_blank'>Repo</a>
+                </button >
+                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
+                  <a href='https://ronaldlamdev.github.io/advice-generator-app/' target='_blank'>LIVE</a>
+                </button>
+              </div>
             </div>
           </div>
 

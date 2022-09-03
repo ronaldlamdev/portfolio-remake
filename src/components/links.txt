@@ -1,12 +1,3 @@
-href='https://ronaldlamdev.github.io/qc2020/' target="_blank"
-href='https://github.com/ronaldlamdev/qc2020' target="_blank"
 
-href='https://ronaldlamdev.github.io/restaurant-site/' target="_blank"
-
-href='https://ronaldlamdev.github.io/travel-site-react-tailwind/' target="_blank"
-
-href='https://ronaldlamdev.github.io/ecommerce-page/' target="_blank"
-
-href='https://ronaldlamdev.github.io/easybank/' target="_blank"
 
 href='https://ronaldlamdev.github.io/easybank/#/' target="_blank"
