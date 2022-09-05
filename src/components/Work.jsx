@@ -43,50 +43,6 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Restaurant */}
-          
-          <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
-              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Restaurant}/>
-              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
-                Created with React and Tailwind CSS
-              </p>
-            </div>
-            <div className='p-6 text-center relative group w-full h-full'>
-              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Restaurant Site</h2>
-              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
-                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://github.com/ronaldlamdev/restaurant-site' target='_blank'>Repo</a>
-                </button >
-                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://ronaldlamdev.github.io/restaurant-site/' target="_blank">LIVE</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          {/* Travel */}
-          
-          <div className='flex flex-col justify-center items-center w-full'>
-            <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
-              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Travel}/>
-              <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
-                Created with React and Tailwind CSS
-              </p>
-            </div>
-            <div className='p-6 text-center relative group w-full h-full'>
-              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Travel Site</h2>
-              <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
-                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://github.com/ronaldlamdev/travel-site-react-tailwind' target='_blank'>Repo</a>
-                </button>
-                <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://ronaldlamdev.github.io/travel-site-react-tailwind/' target="_blank">LIVE</a>
-                </button>
-              </div>
-            </div>
-          </div>
-
           {/* Ecommerce */}
           
           <div className='flex flex-col justify-center items-center w-full'>
