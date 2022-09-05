@@ -1,7 +1,5 @@
 import React from 'react';
 import QC2020 from '../assets/project-images/qc2020thumbnail.jpg';
-import Restaurant from '../assets/project-images/restaurantsite.jpg';
-import Travel from '../assets/project-images/travel.jpg';
 import Ecommerce from '../assets/project-images/ecommerce.jpg';
 import Easybank from '../assets/project-images/easybank-thumbnail.jpg';
 import Advice from '../assets/project-images/advicegenerator.jpg';
