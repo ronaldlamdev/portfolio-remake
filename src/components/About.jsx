@@ -19,7 +19,7 @@ const About = () => {
             <p>Hi, I'm Ronald, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
+            <p className='lg:text-xl'>
               I discovered my passion for coding when I created my first static website in college as an
               assignment. I was a senior Accounting major at the time and I knew I wanted to make a career change
               in tech. However, I did not want to change majors to Computer Science and repeat 4 years of college 
