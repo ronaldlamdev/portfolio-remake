@@ -1,10 +1,10 @@
 import React from 'react';
 import QC2020 from '../assets/project-images/qc2020thumbnail.jpg';
-import Ecommerce from '../assets/project-images/ecommerce.jpg';
 import Easybank from '../assets/project-images/easybank-thumbnail.jpg';
 import Advice from '../assets/project-images/advicegenerator.jpg';
 import Space from '../assets/project-images/space.jpg';
-import WindBnB from '../assets/project-images/windbnb.jpg'
+import WindBnB from '../assets/project-images/windbnb.jpg';
+import JobFilter from '../assets/project-images/jobfilter (1).jpg'
 
 
 const Work = () => {
@@ -65,23 +65,23 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Ecommerce */}
+          {/* Job Filter */}
           
           <div className='flex flex-col justify-center items-center w-full'>
             <div className='max-w-[400px] w-full flex justify-center relative shadow-xl'>
-              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={Ecommerce}/>
+              <img className='w-full hover:opacity-30 duration-300 rounded-sm' src={JobFilter}/>
               <p className='cursor-pointer text-white absolute top-0 text-3xl font-semibold left-0 w-full h-full opacity-0 duration-300 flex text-center items-center bg-black/90 hover:opacity-100'>
-                Created with React and SASS
+                Created with React, TypeScript, and Tailwind
               </p>
             </div>
             <div className='p-6 text-center relative group w-full h-full'>
-              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Ecommerce Site</h2>
+              <h2 className='text-2xl duration-300 group-hover:opacity-0'>Jobs Listing Filter</h2>
               <div className='w-full h-full absolute top-0 text-xl left-0 flex justify-evenly items-center opacity-0 group-hover:opacity-100'>
                 <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://github.com/ronaldlamdev/ecommerce-page' target='_blank'>Repo</a>
+                  <a href='https://github.com/ronaldlamdev/job-filter' target='_blank'>Repo</a>
                 </button>
                 <button className='hover:text-white flex items-center text-white max-w-[170px] group border-2 px-6 py-3 my-2 hover:bg-[#59CE8F] hover:border-[#59CE8F] duration-300 cursor-pointer'>
-                  <a href='https://ronaldlamdev.github.io/ecommerce-page/' target="_blank">LIVE</a>
+                  <a href='https://ronaldlamdev.github.io/job-filter/' target="_blank">LIVE</a>
                 </button>
               </div>
             </div>

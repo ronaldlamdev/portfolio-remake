@@ -4,8 +4,8 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactJS from '../assets/react.png';
 import TailwindCSS from '../assets/tailwind.png';
-import SASS from '../assets/sass.svg';
-import Git from '../assets/git.svg'
+import TypeScript from '../assets/typescript.svg';
+import Git from '../assets/git.svg';
 import GitHub from '../assets/github.png';
 
 const Skills = () => {
@@ -46,8 +46,8 @@ const Skills = () => {
             <p className='py-2'>Tailwind CSS</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16]'>
-            <img className='w-20 mx-auto' src={SASS} />
-            <p className='py-2'>SASS</p>
+            <img className='w-20 mx-auto' src={TypeScript} />
+            <p className='py-2'>TypeScript</p>
           </div>
           <div className='shadow-md py-4 rounded-md border shadow-[#040C16]'>
             <img className='w-20 mx-auto' src={Git} />
